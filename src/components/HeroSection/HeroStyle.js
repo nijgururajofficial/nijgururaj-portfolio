@@ -201,3 +201,43 @@ export const ResumeButton = styled.a`
     } 
 
 `;
+
+export const ContactInfo = styled.div`
+  font-size: 18px;
+  line-height: 30px;
+  color: ${({ theme }) => theme.text_primary + 95};
+  display: flex;
+  flex-direction: column;
+  gap: 12px;
+  margin-bottom: 42px;
+
+  @media (max-width: 960px) {
+    text-align: center;
+    font-size: 16px;
+    line-height: 28px;
+  }
+
+  @media (max-width: 640px) {
+    font-size: 14px;
+    line-height: 24px;
+  }
+`;
+
+export const ContactItem = styled.div`
+  display: flex;
+  align-items: center;
+  gap: 10px;
+
+  i {
+    color: ${({ theme }) => theme.primary};
+    font-size: 20px;
+  }
+
+  @media (max-width: 960px) {
+    justify-content: center;
+  }
+
+  @media (max-width: 640px) {
+    font-size: 14px;
+  }
+`;

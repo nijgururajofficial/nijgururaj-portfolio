@@ -12,6 +12,9 @@ export const Bio = {
   resume:
     "https://drive.google.com/file/d/1Zn72jcHIKTpQUBctbdTg6I81N3BdGRRi/view?usp=sharing",
   linkedin: "https://www.linkedin.com/in/nijgururaj15/",
+  phone: "+1 (xxx)xxx-xxxx",
+  location: "Chicago, IL",
+  email: "nijgururaja12@gmail.com",
 };
 
 export const skills = [

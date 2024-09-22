@@ -56,12 +56,13 @@ const Tags = styled.div`
 `
 
 const Tag = styled.span`
-    font-size: 12px;
+    font-size: 14px;
     font-weight: 400;
     color: ${({ theme }) => theme.primary};
     background-color: ${({ theme }) => theme.primary + 15};
     padding: 2px 8px;
     border-radius: 10px;
+    font-weight: 600;
 `
 
 const Details = styled.div`

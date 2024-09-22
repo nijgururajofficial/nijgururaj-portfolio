@@ -4,6 +4,7 @@ import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, Hero
 import HeroImg from '../../images/HeroImage.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
+import { ContactInfo,ContactItem } from './HeroStyle';
 
 const HeroSection = () => {
     return (
@@ -28,6 +29,14 @@ const HeroSection = () => {
                             </Span>
                         </TextLoop>
                         <SubTitle>{Bio.description}</SubTitle>
+                        <ContactInfo>
+                            <ContactItem>
+                                <i className="fas fa-map-marker-alt"></i>📍 {Bio.location}
+                            </ContactItem>
+                            <ContactItem>
+                                <i className="fas fa-map-marker-alt"></i>📧 {Bio.email}
+                            </ContactItem>
+                        </ContactInfo>
                         <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
                     </HeroLeftContainer>
 
