@@ -330,7 +330,7 @@ export const projects = [
     title: "Brain Tumor Detection",
     date: "Feb., 2024",
     description:
-      "Developed a **Brain Tumor Detection Model** using **VGG16 transfer learning** to classify MRI scans with high accuracy. Preprocessed medical images through **resizing, normalization, and augmentation** to enhance model performance. Fine-tuned the architecture by replacing fully connected layers and optimizing hyperparameters for improved classification.",
+      "Developed a Brain Tumor Detection Model using VGG16 transfer learning to classify MRI scans with high accuracy. Preprocessed medical images through resizing, normalization, and augmentation to enhance model performance. Fine-tuned the architecture by replacing fully connected layers and optimizing hyperparameters for improved classification.",
     tags: ["Python", "Pandas", "NumPy", "Scikit-Learn", "Flask", "JavaScript"],
     github: "",
   },
