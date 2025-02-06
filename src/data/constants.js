@@ -97,6 +97,11 @@ export const skills = [
         image:
           "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRgLMZvZAhIoAosn4hKXIHakTEPv-XYvZiWIw&s",
       },
+      {
+        name: "OpenAI",
+        image:
+          "https://freelogopng.com/images/all_img/1681038887chatgpt-logo%20black-and-white.png",
+      }
     ],
   },
   {
@@ -286,6 +291,20 @@ export const education = [
 
 export const projects = [
   {
+    id: 1,
+    title: "AI Powered Interview Bot",
+    date: "February 2025",
+    description:
+      "Developed an AI-powered Interview Simulator using OpenAI's GPT-3.5 and Streamlit to automate the technical interview process, from resume screening to final job offer. Designed a multi-stage evaluation system with automated scoring for technical, DSA, and behavioral assessments, featuring real-time response analysis. Implemented a chatbot-style interface that adapts dynamically based on candidate performance, along with a resume-matching algorithm for precise candidate-role fit assessment.",
+    image:
+      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    tags: [
+      "Python",
+      "OpenAI",
+    ],
+    github: "https://github.com/nijgururajofficial/ai-powered-interview-bot",
+  },
+  {
     id: 0,
     title: "Data Migration from On-Premise to Cloud",
     date: "Sept., 2024",
@@ -307,6 +326,15 @@ export const projects = [
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "LSTM"],
   },
   {
+    id: 4,
+    title: "Barin Tumor Detection",
+    date: "Feb., 2024",
+    description:
+      "Developed a **Brain Tumor Detection Model** using **VGG16 transfer learning** to classify MRI scans with high accuracy. Preprocessed medical images through **resizing, normalization, and augmentation** to enhance model performance. Fine-tuned the architecture by replacing fully connected layers and optimizing hyperparameters for improved classification.",
+    tags: ["Python", "Pandas", "NumPy", "Scikit-Learn", "Flask", "JavaScript"],
+    github: "",
+  },
+  {
     id: 9,
     title: "Life Expectancy Prediction",
     date: "May 2023",
@@ -314,25 +342,6 @@ export const projects = [
       "This project is focused on predicting the life expectancy of different countries based on various input features such as healthcare spending, education levels, disease prevalence, and more. The goal is to create a machine learning model that accurately predicts life expectancy values for different countries.",
     tags: ["Python", "Pandas", "NumPy", "Scikit-Learn", "Flask", "JavaScript"],
     github: "https://github.com/nijgururajofficial/Life-Expectany-Prediction",
-  },
-  {
-    id: 1,
-    title: "Spam Email Prediction",
-    date: "Mar 2023",
-    description:
-      "Designed and developed the Vexa project, a project management app that helps users and teams stay organized and on track. Implemented key features such as task tracking, team collaboration, and time tracking to improve productivity and project outcomes and also invite team/project members. The plan is to add a community of users where they can find developers and other team members and chat system implementation.",
-    image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
-    tags: [
-      "Python",
-      "Pandas",
-      "NumPy",
-      "Scikit-Learn",
-      "Flask",
-      "JavaScript",
-      "Natural Language Processing",
-    ],
-    github: "https://github.com/nijgururajofficial/spam-email-prediction",
   },
   {
     id: 3,
