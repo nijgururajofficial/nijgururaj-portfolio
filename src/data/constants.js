@@ -137,7 +137,7 @@ export const skills = [
     skills: [
       {
         name: "Git",
-        image: "https://book.git-scm.com/images/logos/logomark-orange@2x.png",
+        image: "https://git-scm.com/images/logos/downloads/Git-Icon-1788C.png",
       },
       {
         name: "GitHub",
@@ -165,105 +165,20 @@ export const skills = [
 export const experiences = [
   {
     id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "DevOps & Fullstack Engineering Intern",
-    company: "Flipr Inovations Pvt. Ltd.",
-    date: "Aug 2023 - July 2023",
-    desc: "Working on Flipr Platforms, managing DevOps, and streamlining the process with automation.",
+    img: "https://res.cloudinary.com/dsgyw8mz3/image/upload/v1751398502/Image_Editor_q2wniq.png",
+    role: "AI Engineer",
+    company: "S3CURA Inc. (Start-up)",
+    date: "Jan 2025 - Present",
+    desc: "Developed scalable Video Analytics SaaS using AWS cloud services and AI Vision APIs for intelligent content extraction. Engineered high-performance async Python pipelines and containerized microservices with CI/CD automation for real-time video analysis and insights.",
     skills: [
+      "Python",
       "Docker",
-      "Terraform",
-      "AWS",
-      "EC2",
-      "Portainer",
-      "Nginx",
-      "JavaScript",
-      "TypeScript",
-      "Node Js",
-      " Next Js",
+      "AWS Lambda, S3, EC2, API Gateway",
+      "Computer Vision",
+      "RESTfull APIs",
+      "AI Vision"
     ],
-    doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
-  {
-    id: 0,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/neurobit.jpeg?alt=media&token=1cacbb7b-e5ea-4efb-9b3d-f5a31b9564ad",
-    role: "Frontend Engineer Intern",
-    company: "Neurobit",
-    date: "June 2023 - Present",
-    desc: "Working on the frontend of the web application using ReactJS, Redux, and Material UI.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/Screenshot%20from%202023-05-28%2023-20-46.png?alt=media&token=5570f995-e8f4-4f12-bb2f-73bcf4b20730",
-  },
-  {
-    id: 1,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/flipr.jpeg?alt=media&token=1d72532a-45eb-4c1a-a81a-c9bed9fec543",
-    role: "Fullstack Externship",
-    company: "Flipr",
-    date: "June 2023 - July 2023",
-    desc: "Built an employee management full stack web app used Docker and deployed on AWS ec2. I was the top performer in the program.",
-    skills: [
-      "ReactJS",
-      "Redux",
-      "NodeJs",
-      "Material UI",
-      "HTML",
-      "CSS",
-      "JavaScript",
-      "Docker",
-      "AWS",
-      "MongoDB",
-    ],
-  },
-  {
-    id: 2,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/girlScript.jpeg?alt=media&token=e656a621-cf3c-4230-bf0f-e74b4cec6035",
-    role: "Open Source Contributor ",
-    company: "GirlScript Summer of Code",
-    date: "May 2023 - Present",
-    desc: "Contributing to different open-source projects and learn from industry experts",
-    doc: "https://media.licdn.com/dms/image/D4D22AQGzSpgFaR4hsQ/feedshare-shrink_800/0/1684079632872?e=1687996800&v=beta&t=i0xWn_k32Oj9SxKfc6rARSbOghXD9Ge6WyEb2p2vvrc",
-  },
-  {
-    id: 3,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/gdsc.jpeg?alt=media&token=c162329c-efaa-4be8-a173-8d3f4c48ea70",
-    role: "Android Developer",
-    company: "DSC KIIT",
-    date: "Nov2021 - Present",
-    desc: "As an Android developer at the Google Developers Student Club (GDCS), I have had the opportunity to work on exciting projects and collaborate with talented developers who share my passion for technology. Through my involvement with GDCS, I have also had the opportunity to host and participate in numerous events, including hackathons, study jams, and workshops.",
-    skills: [
-      "Leadership",
-      "Mobile Application Development",
-      "Kotlin",
-      "XML",
-      "Figma",
-    ],
-  },
-  {
-    id: 4,
-    img: "https://firebasestorage.googleapis.com/v0/b/flexi-coding.appspot.com/o/Rudraksha.jpeg?alt=media&token=8f83f41e-d0a1-486f-9c7f-dd4cd1d09e8d",
-    role: "Android Developer Intern",
-    company: "Rudraksha Welffare Foundation",
-    date: "June 2021 - Oct 2021",
-    desc: "As an Android Developer Intern at Rudraksha Welfare Foundation from June 2021 to October 2021, I gained valuable hands-on experience in application development. During my tenure, I contributed to the development of the application's back-end cloud functions using Firebase and implemented a front-end with the MVVM structure, which was designed using Figma. I also added a one-to-one video call feature, conceptualized new features, and optimized app performance. This internship helped me enhance my skills in Android development and gave me an opportunity to work in a collaborative team environment.",
-    skills: [
-      "Android",
-      "Java",
-      "Kotlin",
-      "XML",
-      "Node Js",
-      "Cloud Firestore",
-      "Firebase",
-      "Figma",
-    ],
-    doc: "https://firebasestorage.googleapis.com/v0/b/buckoid-917cf.appspot.com/o/WhatsApp%20Image%202023-05-05%20at%2012.07.39%20AM.jpeg?alt=media&token=9f0e1648-568b-422d-bd0b-1f125f722245",
+    // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
   },
 ];
 
@@ -291,13 +206,21 @@ export const education = [
 
 export const projects = [
   {
+    id: 5,
+    title: "Azure Databricks Real-Time ETL Pipeline",
+    date: "Apr 2025",
+    description:
+      "Implemented a real-time data processing pipeline using Azure Databricks with Spark Streaming and Autoloader. Leveraged Delta Live Tables (DLT) for declarative ETL, and enforced data quality with SCD handling. Modeled data using a star schema design to optimize downstream analytics and reporting. Orchestrated end-to-end workflows using Databricks Workflows to automate processing of streaming files.",
+    tags: ["Python", "Spark Streaming", "Azure Databricks", "Delta Live Tables", "SQL"],
+  },
+  {
     id: 1,
     title: "AI Powered Interview Bot",
-    date: "February 2025",
+    date: "Feb 2025",
     description:
-      "Developed an AI-powered Interview Simulator using OpenAI's GPT-3.5 and Streamlit to automate the technical interview process, from resume screening to final job offer. Designed a multi-stage evaluation system with automated scoring for technical, DSA, and behavioral assessments, featuring real-time response analysis. Implemented a chatbot-style interface that adapts dynamically based on candidate performance, along with a resume-matching algorithm for precise candidate-role fit assessment.",
+    "Developed an AI-powered Interview Simulator using OpenAI's GPT-3.5 and Streamlit to automate the technical interview process, from resume screening to final job offer. Designed a multi-stage evaluation system with automated scoring for technical, DSA, and behavioral assessments, featuring real-time response analysis. Implemented a chatbot-style interface that adapts dynamically based on candidate performance, along with a resume-matching algorithm for precise candidate-role fit assessment.",
     image:
-      "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
+    "https://user-images.githubusercontent.com/64485885/234916413-96296f13-fe4b-4cc4-b215-e72bd7c27928.png",
     tags: [
       "Python",
       "OpenAI",
@@ -305,16 +228,24 @@ export const projects = [
     github: "https://github.com/nijgururajofficial/ai-powered-interview-bot",
   },
   {
-    id: 0,
-    title: "Data Migration from On-Premise to Cloud",
-    date: "Sept., 2024",
+    id: 6,
+    title: "Uber Ride ETL & Demand Forecasting",
+    date: "Jan 2025",
     description:
-      "Led the migration of a 500GB on-premise MS SQL Server database to Azure cloud, utilizing Azure Data Factory, Blob Storage, Databricks, and SQL Data Warehouse. Achieved a 40% improvement in data accessibility, reduced storage costs by 30%, and optimized query performance by 60% while ensuring 100% data integrity and compliance.",
+      "Built a robust ETL pipeline on Google Cloud, automating data ingestion, cleaning, and transformation of Uber ride datasets using SQL and Pandas. Executed exploratory data analysis (EDA) to uncover patterns in ride demand by time, location, and weather. Applied time-series models to forecast demand, aiding strategic decisions on fleet deployment. Designed an interactive dashboard on Looker Studio for real-time demand insights using BigQuery-sourced data.",
+    tags: ["SQL", "Google Cloud", "BigQuery", "Pandas", "Matplotlib"],
+  },
+  {
+    id: 0,
+    title: "Data Migration from On-Premise to Azure Cloud",
+    date: "Sept, 2024",
+    description:
+      "Engineered a full-scale cloud migration solution for an on-premise MS SQL Server database using Azure services. Automated data ingestion workflows using Azure Data Factory and stored raw data in Azure Blob Storage for scalable access. Implemented data transformation pipelines in Azure Databricks with parallelized Spark jobs to streamline processing. Integrated data into Azure SQL Data Warehouse and enabled real-time reporting via Power BI and Azure Analysis Services.",
     tags: [
-      "Azure Key Vault",
-      "Azure Data Factory V2",
-      "Azure DataBricks",
+      "Azure Data Factory",
+      "Azure Databricks",
       "MS SQL Server",
+      "Power BI",
     ],
   },
   {
@@ -328,7 +259,7 @@ export const projects = [
   {
     id: 4,
     title: "Brain Tumor Detection",
-    date: "Feb., 2024",
+    date: "Feb, 2024",
     description:
       "Developed a Brain Tumor Detection Model using VGG16 transfer learning to classify MRI scans with high accuracy. Preprocessed medical images through resizing, normalization, and augmentation to enhance model performance. Fine-tuned the architecture by replacing fully connected layers and optimizing hyperparameters for improved classification.",
     tags: ["Python", "Pandas", "NumPy", "Scikit-Learn", "Flask", "JavaScript"],
@@ -342,17 +273,6 @@ export const projects = [
       "This project is focused on predicting the life expectancy of different countries based on various input features such as healthcare spending, education levels, disease prevalence, and more. The goal is to create a machine learning model that accurately predicts life expectancy values for different countries.",
     tags: ["Python", "Pandas", "NumPy", "Scikit-Learn", "Flask", "JavaScript"],
     github: "https://github.com/nijgururajofficial/Life-Expectany-Prediction",
-  },
-  {
-    id: 3,
-    title: "Netflix Backend Using Django",
-    date: "Jan 2023",
-    description:
-      "I developed a comprehensive backend system using Django, similar to Netflix, capable of handling all CRUD operations. The system supports user and profile creation, including separation of adult and kids profiles, providing a tailored experience for different user categories.",
-    image:
-      "https://camo.githubusercontent.com/fbf405040ae86b5d4a40f24e4ac034982cb8c0e2d850560ba64527997b258be8/68747470733a2f2f666972656261736573746f726167652e676f6f676c65617069732e636f6d2f76302f622f6c6f67696e2d65613565322e61707073706f742e636f6d2f6f2f4255434b4f49442532302831292e706e673f616c743d6d6564696126746f6b656e3d32653735376235372d323964372d346263612d613562322d653164346538313432373435",
-    tags: ["Python", "Django", "HTML", "CSS", "JavaScript", "SQLite"],
-    github: "https://github.com/nijgururajofficial/netflix-clone-using-django",
   },
 ];
 
