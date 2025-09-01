@@ -1,10 +1,9 @@
 export const Bio = {
   name: "Nijgururaj Ashtagi",
   roles: [
-    "Data Analyst",
-    "Machine learning Engineer",
+    "ML Engineer",
     "Data Scientist",
-    "Programmer",
+    "Data Engineer",
   ],
   description:
     "I am a motivated and versatile individual, always eager to take on new challenges. With a passion for learning I am dedicated to delivering high-quality results. With a positive attitude and a growth mindset, I am ready to make a meaningful contribution and achieve great things.",
@@ -101,7 +100,18 @@ export const skills = [
         name: "OpenAI",
         image:
           "https://freelogopng.com/images/all_img/1681038887chatgpt-logo%20black-and-white.png",
+      },
+      {
+        name: "LangChain",
+        image:
+          "https://python.langchain.com/img/brand/wordmark.png",
+      },
+      {
+        name: "LangGraph",
+        image:
+          "https://python.langchain.com/img/brand/wordmark.png",
       }
+      
     ],
   },
   {
@@ -166,20 +176,24 @@ export const experiences = [
   {
     id: 0,
     img: "https://res.cloudinary.com/dsgyw8mz3/image/upload/v1751398502/Image_Editor_q2wniq.png",
-    role: "AI Engineer",
+    role: "AI & Infrastructure Engineer",
     company: "S3CURA Inc. (Start-up)",
     date: "Jan 2025 - Present",
-    desc: "Developed scalable Video Analytics SaaS using AWS cloud services and AI Vision APIs for intelligent content extraction. Engineered high-performance async Python pipelines and containerized microservices with CI/CD automation for real-time video analysis and insights.",
+    desc: "Developed scalable Video Analytics SaaS using AWS cloud services, Google Gemini, and AI Vision APIs for intelligent content extraction and automated evidence processing. Built 25+ APIs with AWS Gateway/Lambda/DynamoDB and implemented WebSocket APIs for real-time communication. Engineered high-performance async Python pipelines, containerized microservices with Docker/ECR, and automated VPN setup with Step Functions for secure Raspberry Pi edge deployments.",
     skills: [
       "Python",
       "Docker",
-      "AWS Lambda, S3, EC2, API Gateway",
+      "AWS Lambda, S3, EC2, API Gateway, DynamoDB, Step Functions",
+      "Google Gemini",
       "Computer Vision",
-      "RESTfull APIs",
-      "AI Vision"
+      "OpenCV",
+      "WebSocket APIs",
+      "FastAPI",
+      "Raspberry Pi",
+      "MLOps"
     ],
     // doc: "https://media.licdn.com/dms/image/D4D2DAQFlp60ZqHuaFQ/profile-treasury-image-shrink_1280_1280/0/1691180828512?e=1692381600&v=beta&t=mM5Y_NE5EPlQhez5FAN6NLVSKcO_Ojt_9Gq3mnFGkAQ",
-  },
+  }
 ];
 
 export const education = [
@@ -205,6 +219,22 @@ export const education = [
 ];
 
 export const projects = [
+  {
+    id: 10,
+    title: "Predictive Stock Market Analysis",
+    date: "Aug 2025",
+    description:
+      "Designed a predictive trading model in Python by applying statistical analysis to 15+ engineered financial indicators, reaching 96.6% forecast accuracy. Simulated algorithmic trading strategies using Pandas backtesting to assess and validate model profitability. Compared and cross-validated 5 machine learning models in Python to determine the most effective algorithm for generating trading signals. Leveraged Random Forest feature selection to isolate the most predictive indicators, enhancing efficiency and interpretability.",
+    tags: ["Python", "Pandas", "NumPy", "Scikit-learn", "Matplotlib", "Random Forest"],
+  },
+  {
+    id: 11,
+    title: "AI Resume Builder (SaaS Product)",
+    date: "Aug 2025",
+    description:
+      "Architected a multi-agent workflow with LangGraph + Google Gemini Pro to create ATS-compliant, job-tailored resumes, improving resume-job match accuracy. Orchestrated specialized LangChain agents (scraping, parsing, content selection, formatting) to automate resume customization and minimize manual work. Integrated JWT authentication with Firebase/PostgreSQL to provide scalable user account management and secure data persistence. Streamlined asynchronous workflows and containerized services with Docker to achieve low-latency API responses and production-grade scalability.",
+    tags: ["Python", "FastAPI", "LangGraph", "LangChain", "Google Gemini", "Firebase"],
+  },
   {
     id: 5,
     title: "Azure Databricks Real-Time ETL Pipeline",
@@ -255,24 +285,6 @@ export const projects = [
     description:
       "I designed an Enhanced Image Caption Generator using deep learning, integrating CNNs for feature extraction and LSTM-based RNNs for sequence generation. The system generated over 1,000 contextually relevant captions, enhancing user engagement and improving visual content comprehension across applications. My research on this project was accepted by the International Conference on Data Science and Applications (ICDSA) 2024.",
     tags: ["Python", "Keras", "TensorFlow", "VGG16", "LSTM"],
-  },
-  {
-    id: 4,
-    title: "Brain Tumor Detection",
-    date: "Feb, 2024",
-    description:
-      "Developed a Brain Tumor Detection Model using VGG16 transfer learning to classify MRI scans with high accuracy. Preprocessed medical images through resizing, normalization, and augmentation to enhance model performance. Fine-tuned the architecture by replacing fully connected layers and optimizing hyperparameters for improved classification.",
-    tags: ["Python", "Pandas", "NumPy", "Scikit-Learn", "Flask", "JavaScript"],
-    github: "",
-  },
-  {
-    id: 9,
-    title: "Life Expectancy Prediction",
-    date: "May 2023",
-    description:
-      "This project is focused on predicting the life expectancy of different countries based on various input features such as healthcare spending, education levels, disease prevalence, and more. The goal is to create a machine learning model that accurately predicts life expectancy values for different countries.",
-    tags: ["Python", "Pandas", "NumPy", "Scikit-Learn", "Flask", "JavaScript"],
-    github: "https://github.com/nijgururajofficial/Life-Expectany-Prediction",
   },
 ];
 

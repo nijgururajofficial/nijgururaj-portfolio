@@ -10,7 +10,7 @@ export const HeroContainer = styled.div`
   @media (max-width: 960px) {
     padding: 66px 16px;
   }
-  @media (max-width: 640) {
+  @media (max-width: 640px) {
     padding: 32px 16px;
   }
   z-index: 1;
@@ -22,10 +22,6 @@ export const HeroBg = styled.div`
   position: absolute;
   display: flex;
   justify-content: end;
-  top: 0;
-  right: 0;
-  bottom: 0;
-  left: 0;
   width: 100%;
   height: 100%;
   max-width: 1360px;
@@ -227,10 +223,10 @@ export const ContactItem = styled.div`
   display: flex;
   align-items: center;
   gap: 10px;
-
-  i {
-    color: ${({ theme }) => theme.primary};
-    font-size: 20px;
+  font-size: 16px;
+  
+  span {
+    font-size: 18px;
   }
 
   @media (max-width: 960px) {
@@ -239,5 +235,9 @@ export const ContactItem = styled.div`
 
   @media (max-width: 640px) {
     font-size: 14px;
+    
+    span {
+      font-size: 16px;
+    }
   }
 `;

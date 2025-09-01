@@ -1,6 +1,6 @@
 import React from 'react'
 import HeroBgAnimation from '../HeroBgAnimation'
-import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle,SocialMediaIcons,SocialMediaIcon, ResumeButton } from './HeroStyle'
+import { HeroContainer, HeroBg, HeroLeftContainer, Img, HeroRightContainer, HeroInnerContainer, TextLoop, Title, Span, SubTitle, ResumeButton } from './HeroStyle'
 import HeroImg from '../../images/HeroImage.jpg'
 import Typewriter from 'typewriter-effect';
 import { Bio } from '../../data/constants';
@@ -31,17 +31,16 @@ const HeroSection = () => {
                         <SubTitle>{Bio.description}</SubTitle>
                         <ContactInfo>
                             <ContactItem>
-                                <i className="fas fa-map-marker-alt"></i>📍 {Bio.location}
+                                <span>📍</span> {Bio.location}
                             </ContactItem>
                             <ContactItem>
-                                <i className="fas fa-map-marker-alt"></i>📧 {Bio.email}
+                                <span>📧</span> {Bio.email}
                             </ContactItem>
                         </ContactInfo>
-                        <ResumeButton href={Bio.resume} target='display'>Check Resume</ResumeButton>
+                        <ResumeButton href={Bio.resume} target='_blank' rel='noopener noreferrer'>Check Resume</ResumeButton>
                     </HeroLeftContainer>
 
                     <HeroRightContainer id="Right">
-
                         <Img src={HeroImg} alt="hero-image" />
                     </HeroRightContainer>
                 </HeroInnerContainer>
